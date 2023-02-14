@@ -116,15 +116,105 @@ a{
 }
 }
 }
+
+@media(max-width: 612px) {
+    .cover {
+  padding-top: -40px !important;
+  .input, .btn {
+    width: 150% !important;
+}
+  .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 3px;
+    .header {
+        letter-spacing: 2px;
+        font-size: 45px;
+    }
+    p{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    }
+  }
+    }
+    .main {
+     .logo {
+            position: relative;
+            left: 50%;
+            transform: translate(50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40% !important;
+        }
+    
+    .background {
+        img {
+            width: 100vw !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+}
 @media(max-width:800px){
       .welcome{
           display:flex;
           flex-direction: column;
           justify-content: space-between;
-          overflow-x: hidden;
+        //   overflow-x: hidden;
+      }
+
+      .cover {
+        // margin-top: 20px;
+        display: flex;
+        width: 100vw;
+        align-items: center;
+        height: 50% !important;
+        justify-content: center;
+        line-height: 12px;
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            line-height: 3px;
+            .header {
+                letter-spacing: 2px;
+                font-size: 45px;
+            }
+            p{
+                display: flex;
+            justify-content: center;
+            align-items: center;
+             
+            }
+          }
+        .input, .btn {
+            width: 110% !important;
+        }
+        .linkbtn {
+            margin-bottom: 40px !important;
+        }
+        a {
+            display: flex;
+            width: 100vw;
+            align-items: center;
+            margin-bottom: 20px;
+            justify-content: center;
+            line-height: 12px;
+            
+            
+        }
       }
       .background{
           margin-top: 30%;
+          width: 30px !important;
       }
      
   }
