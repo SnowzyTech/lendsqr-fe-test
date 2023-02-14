@@ -1,83 +1,72 @@
 .sidebar {
     flex: 1;
-    // border-right: 0.5px solid rgb(230, 227, 227);
-    min-height: 100vh;
+    min-height: 105vh !important;
     background-color: white;
-   
-   
-
+    margin-top: -10px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
-    .top{
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 10px;
-    
-        img{
-            // width: 50px;
-        }
+    .top {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+  
+      img {
+        width: 110px;
+      }
     }
-
-    
-
+  
     hr {
-        height: 0;
-        border: 0.5px solid rgb(230, 227, 227);
+      height: 0;
+      border: 0.5px solid rgb(230, 227, 227);
     }
-
+  
     .center {
-        padding-left: 10px;
-
-        ul{
-            list-style: none;
-            padding: 0;
-            margin: 0;
-
-            .title {
-                font-size: 10px;
-                font-weight: bold;
-                color: #999;
-                margin-top: 10px;
-                margin-bottom: 2px;
-                font-family: 'Work Sans';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 12px;
-                line-height: 14px;
-                color: #545F7D;
-    
-                    }
-
-            li {
-                font-family: 'Work Sans';
-                font-size: 16px;
-                line-height: 19px;
-                color: #213F7D;
-                display: flex;
-                align-items: center;
-                padding-bottom: 3px;
-                cursor: pointer;
-
-                &:hover {
-                    background-color: #ece8ff;
-                    }
-
-                .icon {
-
-                }
-
-                span {
-                    font-size: 13px;
-                    
-                }
-            }
-
-
-            
+      min-height: 100vh !important;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        min-height: 108vh !important;
+        .title {
+          margin-top: 10px;
+          margin-bottom: 3px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 14px;
+          color: #545f7d;
         }
+  
+        li {
+          font-family: "Work Sans";
+          font-size: 16px;
+          line-height: 19px;
+          color: #213f7d;
+          display: flex;
+          align-items: center;
+          padding: 5px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #ece8ff;
+          }
+  
+          .icon {
+            font-size: 17px;
+          }
 
-       
-               
+          span {
+            margin-left: 9px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #213f7d;
+          }
+        }
+      }
     }
-}
+  }
+  

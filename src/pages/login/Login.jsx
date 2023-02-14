@@ -1,8 +1,7 @@
 import React from 'react'
-import './welcome.scss'
-// import  Group from '../assets/Group.jpg'
-// import Pablo from '../assets/pablo-sign-in 1.jpg'
-const Welcome = () => {
+import './login.scss'
+import { Link } from 'react-router-dom'
+const Login = () => {
     return(
         <div className='welcome'>
             <div className='main'>
@@ -21,10 +20,12 @@ const Welcome = () => {
            <input className='input' type="email" placeholder='Email'></input>
            <input className='input' type="password" placeholder='Password'></input>
             <a href='#'>forgot password?</a>
-            <button className='btn'>log in</button>
+            <Link to="/home">
+              <button className='btn'>log in</button>
+            </Link>
         </div>
         </div>
         
     )
 }
-export default Welcome
+export default Login;

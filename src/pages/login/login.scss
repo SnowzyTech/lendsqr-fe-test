@@ -1,35 +1,29 @@
 body{
-    /* position: absolute; */
     width: 100%;
     height: 100vh;
     left: 0px;
     top: 0px;
     background: #FFFFFF;
-    // overflow: hidden;
 }
 .welcome{
         display: grid;
         grid-template-columns: 60% 40%;
 
 .cover{
-    /* position: absolute; */
     padding: 0 60px;
     width: 100%;
     height: 100vh;
-    /* left: 736px; */
     top: -5px;
     background: #FFFFFF;
     border-radius: 0px;
     box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
 
 .header{ 
     height: 55px;
     top: 215px;
-    // margin-top: -85px;
     font-family: 'Avenir Next'; 
     font-style: normal;
     font-weight: 700;
@@ -121,16 +115,16 @@ a{
     background: #213F7D;
 }
 }
-  @media(max-width:800px){
-        .welcome{
-            display:flex;
-            flex-direction: column;
-            justify-content: space-between;
-            overflow-x: hidden;
-        }
-        .background{
-            margin-top: 30%;
-        }
-       
-    }
 }
+@media(max-width:800px){
+      .welcome{
+          display:flex;
+          flex-direction: column;
+          justify-content: space-between;
+          overflow-x: hidden;
+      }
+      .background{
+          margin-top: 30%;
+      }
+     
+  }
